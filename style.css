@@ -1,0 +1,227 @@
+h1, h2, h3, h4, h5, h6, body, a, section, header, footer, img, ul, li, nav, html, head{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid #000; */
+    background-color: #be3144;
+    position: fixed;
+    /* padding-bottom: 70px; */
+}
+
+.top-menu{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+#nav-bar ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+#nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    padding: 20px 15px !important;
+}
+
+#nav-bar ul li a:hover{
+    background-color: #4d407a;
+}
+
+#welcome-section{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    padding-top: 70px;
+}
+
+.welcome h1{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.welcome h4{
+    color: #be3144;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 6px;
+}
+
+#projects{
+    background-color: #45567d;
+    padding-bottom: 100px;
+}
+
+.section-title{
+    padding-top: 16vh;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.section-title h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+}
+
+.projects-section{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.projects{
+    float: left;
+    width: 30%;
+    margin: 0 1.5%;
+    margin-bottom: 40px;
+}
+
+.projects a{
+    text-decoration: none;
+}
+
+.project-img img{
+    width: 100%;
+    height: 400px;
+}
+
+.project-title{
+    margin: 0;
+    padding: 0;
+    padding: 15px 0px;
+    background-color: rgb(54, 49, 49);
+    border-radius: 0px 0px 3px 3px;
+}
+
+.project-title h3{
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.button-area{
+    width: 12%;
+    margin: 0 auto;
+}
+
+.button-area a{
+    margin-top: 50px;
+    background-color: rgb(54, 49, 49);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none; 
+}
+
+.button-area a > span{
+    font-size: 22px;
+}
+
+.button-area a:hover{
+    background-color: rgb(209, 50, 50);
+    transition: transform 0.3s ease-out;
+}
+
+.button-area a:hover span{
+    margin-left: 3px;
+    transition: transform 0.3s ease-out;
+}
+
+#contact{
+    background-color: #303841;
+    padding: 25vh 0;
+}
+
+.contact-area h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: #fff;
+}
+
+.contact-area h4{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 100 !important; 
+    font-style: italic;
+    color: #fff;
+}
+
+.contact-links{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 12vh;
+}
+
+.contact-links ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.contact-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 12px;
+}
+
+.contact-links ul li a:hover{
+    top: 30px;
+    transition: transform 0.3s ease-out;
+}
+
+#footer{
+    background-color: #303841;
+    border-top: 4px solid #be3144;
+    padding: 40px 0px ;
+}
+
+.footer-section{
+    margin: 0 15vh; 
+    margin-bottom: 30px !important;
+}
+
+.footer-section h4{
+    float: left;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100 !important;
+    color: #fff;
+}
+
+.footer-section h5{
+    float: right;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100 !important;
+    color: #fff;
+}
