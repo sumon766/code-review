@@ -196,7 +196,6 @@ html{
 
 .contact-links ul li a:hover{
     top: 30px;
-    transition: transform 0.3s ease-out;
 }
 
 #footer{
