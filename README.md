@@ -46,9 +46,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Header Menu for Easy Navigation]**
-- **[About Self]**
-- **[Recent works]**
+- **Header Menu for Easy Navigation**
+- **About Self**
+- **Recent works**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
